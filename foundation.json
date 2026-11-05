@@ -1,0 +1,9 @@
+{
+  "project": "boilerplate",
+  "presentation": "mobile-react",
+  "foundation": "project-boilerplate-mobile-react",
+  "foundationCommit": null,
+  "documentation": "https://github.com/liberusoftware/documentation/blob/main/projects/boilerplate/README.md",
+  "status": "skeleton",
+  "enabledModules": []
+}
