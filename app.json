@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "project-boilerplate-mobile-react",
-    "slug": "project-boilerplate-mobile-react",
+    "name": "project-accounting-erp-mobile-react",
+    "slug": "project-accounting-erp-mobile-react",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

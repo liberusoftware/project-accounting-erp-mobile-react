@@ -1,7 +1,5 @@
-# Foundation validation
+# Validation responsibilities
 
-On 2026-11-05, the generated Expo SDK 58 / React Native 0.88.1 foundation passed `npm run lint`, `npm run typecheck` and `npm run export`. Metro produced Android and iOS Hermes bundles. These exports do not establish signed native builds, physical-device behavior, production API integration or store submission.
+This shell was derived from [project-boilerplate-mobile-react](https://github.com/liberusoftware/project-boilerplate-mobile-react) at `92043c80ff898e28b35ba56c566dde6d06269895`. The foundation's checks cover its build setup and public shell; product-specific integration remains unimplemented. See the foundation's validation record for its actual results.
 
-`npx expo lint` rejected its auto-installed ESLint version under the current CLI/Node combination. The equivalent direct ESLint command passes and is declared as `npm run lint`.
-
-The baseline install reports moderate development-tool dependency advisories. Review current `npm audit` output before adoption and make compatible dependency updates deliberately; do not automatically force a framework-major downgrade.
+Run the commands in README.md after installing from locks. Native targets require their documented SDKs and operating systems. Record product-specific API and journey results when those features exist; do not claim signed builds or device tests from foundation analysis alone.
